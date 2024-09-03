@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Content styles */
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 77px 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+}
+
+.about-top {
+    display: flex;
+}
+
+/* Movie title styles */
+.movie-title {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+/* Movie description styles */
+.movie-description {
+    padding: 20px;
+}
+
+/* Movie image styles */
+.movie-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.images_3_of_2 img {
+    border: #121212 0px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 22px;
+}
+
+.span_3_of_2 {
+    line-height: 40px;
+    position: relative;
+    margin-top: 0px;
+    width: 45%;
+    flex-basis: calc(50% - 20px); /* 25% minus margin space */
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+
+.span_3_of_2 i {
+    color: goldenrod;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.watch_but {
+    display: inline-block;
+    padding: 3px 20px;
+    background-color: #fff;
+    color: #e91e63;
+    text-decoration: none;
+    border: #e91e63 1px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.1s ease-in-out;
+}
+
+.watch_but:hover {
+    transform: scale(1.02);
+    background-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Show table styles */
+.show-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.show-table th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.show-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.show-table button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+

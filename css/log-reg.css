@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+
+body {
+  background-color: #121212;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: #fff; 
+        }
+
+        .wrap {
+            background: rgba(255, 255, 255, 0.1);
+            width: 400px;
+            padding: 20px 20px 2px 20px;
+            margin-top: 75px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            color: #fff;
+        }
+
+        .panel-heading {
+          font-family: 'Oswald', sans-serif;
+          text-transform: uppercase;
+          font-size: larger;
+          font-weight: bold;
+          letter-spacing: 5px;
+            background: rgba(0, 0, 0, 0.5); 
+            color: #e91e63; 
+            padding: 15px; 
+            text-align: center; 
+            font-size: 24px;
+            border-radius: 5px;
+        }
+
+
+        .login-box-msg {
+            text-align: center; 
+            font-weight: lighter;
+            font-size: 13px;
+            margin-bottom: 20px; 
+            margin-top: 20px;
+            line-height: 25px;
+        }
+
+        span {
+          text-transform: uppercase;
+        }
+
+        .form-t {
+          padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px; 
+        }
+
+        .form-control {
+          width: 91%;
+            background: rgba(255, 255, 255, 0.1);
+            border: none; 
+            border-radius: 3px; 
+            height: 45px; 
+            padding: 0 15px; 
+            color: #fff; 
+        }
+
+        .form-control-feedback {
+            line-height: 45px; 
+        }
+
+        .btn-primary {
+            margin-top: 10px;
+            background: #e91e63; 
+            color: #fff;
+            border: none; 
+            border-radius: 3px; 
+            height: 45px; 
+            font-size: 18px;
+            cursor: pointer;
+            width: 100%;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+          }
+
+
+        .btn-primary:hover {
+            background: #c2185b; 
+        }
+
+        a {
+            color: #e91e63; 
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline; 
+            text-decoration: none;
+        }
